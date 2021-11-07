@@ -1,0 +1,49 @@
+/*
+Fonts
+*/
+
+/*800*/
+.black-roboto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+.black-lexend {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 800;
+}
+
+/*600*/
+.semibold-roboto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+.semibold-lexend {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+}
+
+
+/*500*/
+.medium-roboto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.medium-lexend {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 500;
+}
+
+/*400*/
+.regular-roboto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+.regular-lexend {
+  font-family: 'Lexend', sans-serif;
+  font-weight: normal;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
