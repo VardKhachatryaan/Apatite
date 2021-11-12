@@ -1,93 +1,67 @@
-header {
-  width: 100%;
-  height: 90vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background: linear-gradient(255.02deg, rgba(129, 194, 212, 0.56) 5.93%, rgba(138, 199, 217, 0.56) 23.18%, rgba(155, 207, 224, 0.72) 43.47%, rgba(135, 198, 215, 0.49) 58.21%, rgba(102, 178, 201, 0.57) 73.36%, rgba(98, 177, 198, 0.51) 92.76%);
-}
 
-.header-content {
-  padding: 40px 0;
-}
 
-.header-nav {
-  width: 100%;
+/* Main */
+.main-slider {
+  padding: 70px 0;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.header-nav__left_side,
-.header-nav__right_side {
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
-.header-logo__name {
-  text-transform: uppercase;
-  font-size: 31px;
-  margin-right: 20px;
+.main-slider__img_wrapper {
+  width: 362px;
+  height: 185px;
 }
 
-.header-nav__items {
+.main-slider__img_wrapper:first-child,
+.main-slider__img_wrapper:last-child {
+  background:  #31040B;
+  opacity: 0.59;
+}
+
+.slider-active {
+  width: 468px;
+  height: 239px;
+}
+.main-top__products {
+  padding: 70px 0;
+}
+
+.main-top__products_heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header-nav__item {
-  font-size: 18px;
-  text-transform: uppercase;
-  margin: 0 10px;
+.main-top__products_title {
+  font-size: 44px;
 }
 
-.header-nav__sale {
-  text-transform: uppercase;
-  color: #f74860;
-  font-size: 25px;
+.main-top__products_link {
+  font-size: 22px;
+  color: rgb(181 8 32);
 }
 
-.header-nav__right_side_link {
-  margin: 0 10px;
-  text-transform: uppercase;
+.main-top__products_imgs {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 70px 0;
 }
 
-.header-main {
-  width: 100%;
+.main-top__products_img_group {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 0;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.header-main__content {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.main-top__products_img_wrapper {
+  width: 362px;
+  height: 339px;
+  overflow: hidden;
 }
 
-.header-main__subtitle {
-  font-size: 21px;
-  color: #171FE5;
-  margin: 10px 0;
-}
-
-.header-main__heading {
-  font-size: 50px;
-  margin: 10px 0;
-}
-
-.header-main__par {
-  font-size: 16px;
-  margin: 20px 0;
-}
-
-.header-main__pic {
-  width: 50%;
-}
-
-.header-main__pic img {
+.main-top__products_img_wrapper img {
   width: 100%;
 }
